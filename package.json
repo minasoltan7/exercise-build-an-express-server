@@ -1,0 +1,31 @@
+{
+  "name": "exercise-build-an-express-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon ./src/index.ts",
+    "build":"npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minasoltan7/exercise-build-an-express-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minasoltan7/exercise-build-an-express-server/issues"
+  },
+  "homepage": "https://github.com/minasoltan7/exercise-build-an-express-server#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
